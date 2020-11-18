@@ -23,16 +23,16 @@
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
             app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
-            app:title="Notes"
+            app:title="Voice Notes"
             app:titleTextColor="#FBAE39" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycler_view_notes"
+        android:id="@+id/recycler_view_voice_notes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/item_note"/>
+        tools:listitem="@layout/item_voice_note"/>
 
 
 </LinearLayout>
