@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/Theme.AppCompat">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:navigationIcon="@drawable/ic_appbar_foreground"
+            app:title="Rmmbr"
+            app:titleTextColor="#FBAE39" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notes_capital"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/NotesBtn"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:contentDescription="@string/notes_capital"
+            app:srcCompat="@drawable/ic_baseline_notes_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/voice_notes_capital"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/VNBtn"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:contentDescription="@string/voice_notes_capital"
+            app:srcCompat="@drawable/ic_baseline_keyboard_voice_24" />
+    </LinearLayout>
+
+</LinearLayout>

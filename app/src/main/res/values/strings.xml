@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Rmmbr</string>
+    <string name="notes">notes</string>
+    <string name="notes_capital">Notes</string>
+    <string name="voice_notes">voice notes</string>
+    <string name="voice_notes_capital">Voice Notes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
